@@ -1,0 +1,35 @@
+# To get started with MLflow you'll need to install the appropriate Python package.
+
+# for parquet file
+pyarrow==11.0.0
+fastparquet==2023.4.0
+
+pandas==2.0.2
+matplotlib==3.7.1
+orjson==3.8.8          # orjson is a fast, correct JSON library
+tqdm==4.65.0
+# requests==2.29.0
+
+# ML Model packages
+scikit-learn==1.2.2
+
+# MLOPS packages
+mlflow==2.3.1
+prefect==2.10.18
+prefect-email==0.2.2
+
+# MLOPS Cloud packages
+boto3~=1.24.28
+prefect-aws==0.3.4
+
+# Monitoring
+joblib==1.2.0
+evidently==0.3.3
+psycopg==3.1.9
+# psycopg[binary]==3.1.9
+
+# Optionally
+pipenv
+jupyter
+ipykernel
+ipywidgets

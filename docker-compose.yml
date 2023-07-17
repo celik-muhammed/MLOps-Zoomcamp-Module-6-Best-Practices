@@ -1,0 +1,16 @@
+
+# Specifies the Docker Compose file version
+version: '3.7'
+
+# Defines the services that make up your app
+services:
+  # Defines a service name
+  s3:
+    # Specifies the Docker image to use for this service
+    image: localstack/localstack
+    # Maps ports between the host and the container
+    ports:
+      - "4566:4566"
+    # Sets environment variables for the service
+    environment:
+      - SERVICES=s3
